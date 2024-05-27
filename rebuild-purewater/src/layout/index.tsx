@@ -1,9 +1,13 @@
 import React from 'react'
 
-const index = () => {
+interface Prop {
+  children: ReactNode;
+}
+
+const Layout = () => {
   return (
     <div>index</div>
   )
 }
 
-export default index
+export default Layout
