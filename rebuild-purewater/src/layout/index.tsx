@@ -1,13 +1,11 @@
-import React from 'react'
+import { ReactNode } from 'react';
 
 interface Prop {
   children: ReactNode;
 }
 
 const Layout = () => {
-  return (
-    <div>index</div>
-  )
-}
+  return <div>index</div>;
+};
 
-export default Layout
+export default Layout;
