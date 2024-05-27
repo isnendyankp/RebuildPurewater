@@ -4,7 +4,7 @@ interface Prop {
   children: ReactNode;
 }
 
-const Layout = () => {
+const Layout = ({ children }: Prop) => {
   return <div>index</div>;
 };
 
