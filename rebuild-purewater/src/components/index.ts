@@ -5,3 +5,4 @@ export { default as Text } from './Text';
 export { default as Button } from './Button';
 export { default as ScrollToTopButton } from './ScrollToTopButton';
 export { default as Navbar } from './Navbar';
+export { default as Footer } from './Footer';
