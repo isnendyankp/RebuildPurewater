@@ -24,6 +24,14 @@ const Navbar = () => {
         </Link>
         {/* This is a button for mobile menu */}
         <div className="flex items-center">
+          {/* Button with onClick event to toggle mobile menu */}
+          <button
+            onClick={toggleMobileMenu}
+            id="menu-toggle"
+            type="button"
+            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden"
+          >
+          </button>
         </div>
       </div>
     </nav>
