@@ -8,10 +8,11 @@ interface Prop {
 const Layout = ({ children }: Prop) => {
   return (
     <>
-        <Navbar />
-        {children}
+      <Navbar />
+      {children}
+      <ScrollToTopButton />
     </>
-  )
+  );
 };
 
 export default Layout;
