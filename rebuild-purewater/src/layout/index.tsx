@@ -1,4 +1,4 @@
-import { Navbar, ScrollToTopButton } from '@/components';
+import { Navbar, ScrollToTopButton, Footer } from '@/components';
 import { ReactNode } from 'react';
 
 interface Prop {
