@@ -22,6 +22,9 @@ const Navbar = () => {
             Pure Water
           </span>
         </Link>
+        {/* This is a button for mobile menu */}
+        <div className="flex items-center">
+        </div>
       </div>
     </nav>
   );
