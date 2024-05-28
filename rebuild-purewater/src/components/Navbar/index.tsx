@@ -1,9 +1,15 @@
 import React from 'react'
+import { useState } from 'react';
 
-const index = () => {
+
+const Navbar = () => {
+
+  // This is a state for mobile menu
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  
   return (
     <div>index</div>
   )
 }
 
-export default index
+export default Navbar
