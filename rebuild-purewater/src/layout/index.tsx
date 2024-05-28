@@ -11,6 +11,7 @@ const Layout = ({ children }: Prop) => {
       <Navbar />
       {children}
       <ScrollToTopButton />
+      <Footer />
     </>
   );
 };
