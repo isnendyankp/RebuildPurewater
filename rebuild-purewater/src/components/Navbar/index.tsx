@@ -70,7 +70,12 @@ const Navbar = () => {
             </li>
             {/* About link */}
             <li>
-              About
+              <Link
+                href="#aboutus"
+                
+              >
+                About Us
+              </Link>
             </li>
           </ul>
         </div>
