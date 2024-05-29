@@ -33,7 +33,13 @@ const Navbar = () => {
           >
             {/* This span for icon */}
             <span className="sr-only">Open main menu</span>
-            
+            {/*  this svg for hamburger icon */}
+            <svg
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            ></svg>
           </button>
         </div>
       </div>
