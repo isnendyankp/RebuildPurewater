@@ -50,6 +50,15 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
+        {/* This for desktop menu */}
+        <div
+          className={`w-full md:block md:w-auto ${
+            isMobileMenuOpen ? '' : 'hidden'
+          }`}
+          id="mobile-menu"
+        >
+
+        </div>
       </div>
     </nav>
   );
