@@ -77,6 +77,10 @@ const Navbar = () => {
                 About Us
               </Link>
             </li>
+            {/* Product link */}
+            <li>
+              Products
+            </li>
           </ul>
         </div>
       </div>
