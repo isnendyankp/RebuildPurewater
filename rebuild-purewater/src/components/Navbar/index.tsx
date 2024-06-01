@@ -86,6 +86,10 @@ const Navbar = () => {
                 Products
               </Link>
             </li>
+            {/* FAQ link */}
+            <li>
+              FAQ
+            </li>
           </ul>
         </div>
       </div>
