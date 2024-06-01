@@ -97,7 +97,12 @@ const Navbar = () => {
             </li>
             {/* Contact @footer link */}
             <li>
-              Contact Us
+              <Link
+                href="#footer"
+                
+              >
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
