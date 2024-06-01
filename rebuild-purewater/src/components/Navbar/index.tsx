@@ -88,7 +88,12 @@ const Navbar = () => {
             </li>
             {/* FAQ link */}
             <li>
-              FAQ
+              <Link
+                href="#faq"
+               
+              >
+                FAQ
+              </Link>
             </li>
           </ul>
         </div>
