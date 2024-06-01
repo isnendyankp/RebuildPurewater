@@ -95,6 +95,10 @@ const Navbar = () => {
                 FAQ
               </Link>
             </li>
+            {/* Contact @footer link */}
+            <li>
+              Contact Us
+            </li>
           </ul>
         </div>
       </div>
