@@ -106,7 +106,12 @@ const Navbar = () => {
             </li>
             {/* Button Login */}
             <li>
-              Login
+              <Link
+                href="/login"
+                
+              >
+                Login
+              </Link>
             </li>
           </ul>
         </div>
