@@ -10,7 +10,10 @@ const Footer = () => {
         </div>
         {/* Published by Purewater section */}
         <div className="bg-gray-300">
-          © 2024. Published By Pure Water. All rights reserved.
+          {/* Add styling container */}
+          <div className="container px-5 py-4 mx-auto">
+            © 2024. Published By Pure Water. All rights reserved.
+          </div>
         </div>
       </footer>
     </div>
