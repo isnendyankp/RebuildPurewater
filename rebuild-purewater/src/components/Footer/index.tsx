@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="bg-gray-300">
           {/* Add styling container */}
           <div className="container px-5 py-4 mx-auto">
-            © 2024. Published By Pure Water. All rights reserved.
+            <p> © 2024. Published By Pure Water. All rights reserved. </p>
           </div>
         </div>
       </footer>
