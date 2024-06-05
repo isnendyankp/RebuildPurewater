@@ -9,7 +9,9 @@ const Footer = () => {
           {/* Main Footer Content */}
           <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
             {/* Purewa achor tag */}
-            <a> Purewater </a>
+            <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
+              Pure Water
+            </a>
             Main Footer Content
           </div>
         </div>
