@@ -12,6 +12,9 @@ const Footer = () => {
             <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
               Pure Water
             </a>
+            {/* Keep in Touch with us paragraph */}
+            <p className="mt-2 text-sm text-gray-500">Keep In Touch With Us</p>
+            {/* Social Media Icons */}
             Main Footer Content
           </div>
         </div>
