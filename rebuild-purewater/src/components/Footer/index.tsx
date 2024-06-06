@@ -15,7 +15,7 @@ const Footer = () => {
             {/* Keep in Touch with us paragraph */}
             <p className="mt-2 text-sm text-gray-500">Keep In Touch With Us</p>
             {/* Social Media Icons */}
-            Main Footer Content
+            <div>Main Footer Content</div>
           </div>
         </div>
         {/* Published by Purewater section */}
