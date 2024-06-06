@@ -16,7 +16,9 @@ const Footer = () => {
             <p className="mt-2 text-sm text-gray-500">Keep In Touch With Us</p>
             {/* Social Media Icons */}
             <div className="mt-4">
-              <span>Main Footer Content</span>
+              <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+                Main Footer Content
+              </span>
             </div>
           </div>
         </div>
