@@ -28,7 +28,10 @@ const Footer = () => {
                   className="ml-3 text-gray-500"
                 ></Link>
                 {/* Link instagram */}
-                <Link to="/" className="ml-3 text-gray-500"></Link>
+                <Link
+                  href="https://www.instagram.com"
+                  className="ml-3 text-gray-500"
+                ></Link>
                 {/* Link linkedin */}
                 <Link to="/" className="ml-3 text-gray-500"></Link>
               </span>
