@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
           {/* Main Footer Content */}
           <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
-            {/* Purewa achor tag */}
+            {/* Purewater achor tag */}
             <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
               Pure Water
             </a>
@@ -24,6 +24,9 @@ const Footer = () => {
                 <Link to="/" className="ml-3 text-gray-500">
                 </Link>
                 {/* Link instagram */}
+                <Link to="/" className="ml-3 text-gray-500">
+                </Link>
+                {/* Link linkedin */}
                 <Link to="/" className="ml-3 text-gray-500">
                 </Link>
 
