@@ -17,7 +17,10 @@ const Footer = () => {
             {/* Social Media Icons */}
             <div className="mt-4">
               <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-                Main Footer Content
+                {/* Link facebook */}
+                <Link to="/" className="text-gray-500">
+                </Link>
+
               </span>
             </div>
           </div>
