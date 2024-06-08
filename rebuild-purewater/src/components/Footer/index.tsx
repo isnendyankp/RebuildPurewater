@@ -23,6 +23,9 @@ const Footer = () => {
                 {/* Link twitter */}
                 <Link to="/" className="ml-3 text-gray-500">
                 </Link>
+                {/* Link instagram */}
+                <Link to="/" className="ml-3 text-gray-500">
+                </Link>
 
               </span>
             </div>
