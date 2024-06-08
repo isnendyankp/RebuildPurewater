@@ -18,18 +18,16 @@ const Footer = () => {
             <div className="mt-4">
               <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
                 {/* Link facebook */}
-                <Link to="/" className="text-gray-500">
-                </Link>
+                <Link
+                  href="https://www.facebook.com"
+                  className="text-gray-500"
+                ></Link>
                 {/* Link twitter */}
-                <Link to="/" className="ml-3 text-gray-500">
-                </Link>
+                <Link to="/" className="ml-3 text-gray-500"></Link>
                 {/* Link instagram */}
-                <Link to="/" className="ml-3 text-gray-500">
-                </Link>
+                <Link to="/" className="ml-3 text-gray-500"></Link>
                 {/* Link linkedin */}
-                <Link to="/" className="ml-3 text-gray-500">
-                </Link>
-
+                <Link to="/" className="ml-3 text-gray-500"></Link>
               </span>
             </div>
           </div>
