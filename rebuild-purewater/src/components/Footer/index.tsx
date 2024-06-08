@@ -23,7 +23,10 @@ const Footer = () => {
                   className="text-gray-500"
                 ></Link>
                 {/* Link twitter */}
-                <Link to="/" className="ml-3 text-gray-500"></Link>
+                <Link
+                  href="https://www.twitter.com"
+                  className="ml-3 text-gray-500"
+                ></Link>
                 {/* Link instagram */}
                 <Link to="/" className="ml-3 text-gray-500"></Link>
                 {/* Link linkedin */}
