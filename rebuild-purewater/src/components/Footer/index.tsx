@@ -21,22 +21,22 @@ const Footer = () => {
                 {/* Link facebook */}
                 <Link
                   href="https://www.facebook.com"
-                  className="text-gray-500"
+                  className="text-gray-500 cursor-pointer"
                 ></Link>
                 {/* Link twitter */}
                 <Link
                   href="https://www.twitter.com"
-                  className="ml-3 text-gray-500"
+                  className="ml-3 text-gray-500 cursor-pointer"
                 ></Link>
                 {/* Link instagram */}
                 <Link
                   href="https://www.instagram.com"
-                  className="ml-3 text-gray-500"
+                  className="ml-3 text-gray-500 cursor-pointer"
                 ></Link>
                 {/* Link linkedin */}
                 <Link
                   href="https://www.linkedin.com"
-                  className="ml-3 text-gray-500"
+                  className="ml-3 text-gray-500 cursor-pointer"
                 ></Link>
               </span>
             </div>
