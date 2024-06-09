@@ -18,22 +18,33 @@ const Footer = () => {
             {/* Social Media Icons */}
             <div className="mt-4">
               <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-                {/* Link facebook */}
+                {/* 1. Link facebook */}
                 <Link
                   href="https://www.facebook.com"
                   className="text-gray-500 cursor-pointer hover:text-gray-700"
-                ></Link>
-                {/* Link twitter */}
+                >
+                  <svg
+                    fill="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    
+                  </svg>
+                </Link>
+                {/* 2. Link twitter */}
                 <Link
                   href="https://www.twitter.com"
                   className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700"
                 ></Link>
-                {/* Link instagram */}
+                {/* 3. Link instagram */}
                 <Link
                   href="https://www.instagram.com"
                   className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700"
                 ></Link>
-                {/* Link linkedin */}
+                {/* 4. Link linkedin */}
                 <Link
                   href="https://www.linkedin.com"
                   className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700"
