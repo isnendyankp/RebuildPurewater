@@ -79,7 +79,19 @@ const Footer = () => {
                 <Link
                   href="https://www.linkedin.com"
                   className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700"
-                ></Link>
+                >
+                  <svg
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="0"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    
+                  </svg>
+                </Link>
               </span>
             </div>
           </div>
