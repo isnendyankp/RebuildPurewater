@@ -99,6 +99,10 @@ const Footer = () => {
               </span>
             </div>
           </div>
+          {/* div Telp, fax & email section */}
+          <div>
+            
+          </div>
         </div>
         {/* Published by Purewater section */}
         <div className="bg-gray-300">
