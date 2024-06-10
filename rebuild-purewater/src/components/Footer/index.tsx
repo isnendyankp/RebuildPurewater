@@ -99,9 +99,9 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          {/* div Telp, fax & email section */}
-          <div>
-            
+          {/* outer div Telp, fax & email section */}
+          <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+
           </div>
         </div>
         {/* Published by Purewater section */}
