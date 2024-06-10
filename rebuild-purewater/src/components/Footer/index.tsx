@@ -64,7 +64,14 @@ const Footer = () => {
                     className="w-5 h-5"
                     viewBox="0 0 24 24"
                   >
-                    
+                    <rect
+                      width="20"
+                      height="20"
+                      x="2"
+                      y="2"
+                      rx="5"
+                      ry="5"
+                    ></rect>
                   </svg>
                 </Link>
                 {/* 4. Link linkedin */}
