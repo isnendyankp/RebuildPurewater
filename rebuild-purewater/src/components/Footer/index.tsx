@@ -54,7 +54,19 @@ const Footer = () => {
                 <Link
                   href="https://www.instagram.com"
                   className="ml-3 text-gray-500 cursor-pointer hover:text-gray-700"
-                ></Link>
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    
+                  </svg>
+                </Link>
                 {/* 4. Link linkedin */}
                 <Link
                   href="https://www.linkedin.com"
