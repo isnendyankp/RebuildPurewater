@@ -99,9 +99,10 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          {/* outer div Telp, fax & email section */}
+          {/* first wrapper div Telp, fax & email section */}
           <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
-
+            {/* second wrapper div Telp, fax & email section */}
+            <div className="w-full px-4 lg:w-1/4 md:w-1/2"></div>
           </div>
         </div>
         {/* Published by Purewater section */}
