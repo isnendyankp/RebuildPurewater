@@ -103,9 +103,13 @@ const Footer = () => {
           <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
             {/* second wrapper div Telp, fax & email section */}
             <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+              {/* Contact section */}
               <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">
                 Contact
               </h2>
+              {/* Navigation List */}
+              <nav className="mb-10 list-none">
+              </nav>
             </div>
           </div>
         </div>
