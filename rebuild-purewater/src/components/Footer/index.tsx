@@ -110,17 +110,11 @@ const Footer = () => {
               {/* Navigation List */}
               <nav className="mb-10 list-none">
                 {/* Telp */}
-                <li>
-                  Telp
-                </li>
+                <li className="mt-3">Telp</li>
                 {/* Fax */}
-                <li>
-                  Fax
-                </li>
+                <li className="mt-3">Fax</li>
                 {/* Email */}
-                <li>
-                  Email
-                </li>
+                <li className="mt-3">Email</li>
               </nav>
             </div>
           </div>
