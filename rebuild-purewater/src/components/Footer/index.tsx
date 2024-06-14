@@ -113,6 +113,10 @@ const Footer = () => {
                 <li>
                   Telp
                 </li>
+                {/* Fax */}
+                <li>
+                  Fax
+                </li>
               </nav>
             </div>
           </div>
