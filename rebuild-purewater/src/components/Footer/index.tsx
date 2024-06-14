@@ -111,15 +111,21 @@ const Footer = () => {
               <nav className="mb-10 list-none">
                 {/* Telp */}
                 <li className="mt-3">
-                  <a className="text-gray-500">Telp</a>
+                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                    Telp
+                  </a>
                 </li>
                 {/* Fax */}
                 <li className="mt-3">
-                  <a className="text-gray-500">Fax</a>
+                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                    Fax
+                  </a>
                 </li>
                 {/* Email */}
                 <li className="mt-3">
-                  <a className="text-gray-500">Email</a>
+                  <a className="text-gray-500 cursor-pointer hover:text-gray-900">
+                    Email
+                  </a>
                 </li>
               </nav>
             </div>
