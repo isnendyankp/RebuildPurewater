@@ -109,6 +109,10 @@ const Footer = () => {
               </h2>
               {/* Navigation List */}
               <nav className="mb-10 list-none">
+                {/* Telp */}
+                <li>
+                  Telp
+                </li>
               </nav>
             </div>
           </div>
