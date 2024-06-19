@@ -34,6 +34,14 @@ const Carousel = () => {
             className="object-cover w-full h-full"
           />
         </div>
+        {/* Carousel 4 */}
+        <div className="carousel-item">
+          <img
+            src="https://cdn.tuk.dev/assets/templates/prodify/carousel-4.png"
+            alt="carousel-4"
+            className="object-cover w-full h-full"
+          />
+        </div>
       </div>
     </div>
   );
