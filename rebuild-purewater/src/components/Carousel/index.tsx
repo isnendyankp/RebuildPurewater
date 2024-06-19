@@ -3,7 +3,9 @@ import React from 'react'
 const Carousel = () => {
   return (
     // Outer wrapper for carousel
-    <div className="relative w-full">index</div>
+    <div id="indicators-carousel"  className="relative w-full">
+      index
+    </div>
   );
 }
 
