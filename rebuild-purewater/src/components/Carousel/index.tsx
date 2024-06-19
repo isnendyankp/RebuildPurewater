@@ -8,7 +8,10 @@ const Carousel = () => {
       className="relative w-full"
       data-carousel="static"
     >
-      index
+      {/* Carousel inner list */}
+      <div className="relative h-screen overflow-hidden rounded-lg">
+
+      </div>
     </div>
   );
 }
