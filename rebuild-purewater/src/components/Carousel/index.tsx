@@ -12,12 +12,12 @@ const Carousel = () => {
       <div className="relative h-screen overflow-hidden rounded-lg">
         {/* Carousel 1 */}
         <div className="carousel-item">
-          <img
-            src="https://cdn.tuk.dev/assets/templates/prodify/carousel-1.png"
+          <Image
+            className="absolute block object-cover w-full h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            src={`/assets/carousel1.jpg`}
             width={500}
             height={500}
-            alt="carousel-1"
-            className="object-cover w-full h-full"
+            alt="banner 1"
           />
         </div>
         {/* Carousel 2 */}
