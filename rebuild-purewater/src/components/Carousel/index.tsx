@@ -24,7 +24,7 @@ const Carousel = () => {
         {/* Carousel 2 */}
         <div className="carousel-item">
           <Image
-            src="https://cdn.tuk.dev/assets/templates/prodify/carousel-2.png"
+            src={`/assets/carousel2.jpg`}
             alt="carousel-2"
             className="object-cover w-full h-full"
           />
