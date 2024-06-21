@@ -24,9 +24,9 @@ const Carousel = () => {
         {/* Carousel 2 */}
         <div className="carousel-item">
           <Image
+            className="absolute block object-cover w-full h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             src={`/assets/carousel2.jpg`}
             alt="carousel-2"
-            className="object-cover w-full h-full"
           />
         </div>
         {/* Carousel 3 */}
