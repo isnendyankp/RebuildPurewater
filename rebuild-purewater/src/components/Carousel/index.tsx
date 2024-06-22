@@ -38,7 +38,7 @@ const Carousel = () => {
             src={`/assets/carousel3.webp`}
             width={1000}
             height={500}
-            alt="carousel-3"
+            alt="banner 3"
           />
         </div>
         {/* Carousel 4 */}
