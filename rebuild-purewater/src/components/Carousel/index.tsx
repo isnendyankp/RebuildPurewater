@@ -32,7 +32,7 @@ const Carousel = () => {
           />
         </div>
         {/* Carousel 3 */}
-        <div className="carousel-item">
+        <div className="hidden duration-700 ease-in-out">
           <Image
             className="absolute block object-cover w-full h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             src={`/assets/carousel3.webp`}
