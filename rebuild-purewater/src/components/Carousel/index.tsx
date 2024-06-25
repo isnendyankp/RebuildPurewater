@@ -56,6 +56,8 @@ const Carousel = () => {
           <Image
             className="absolute block object-cover w-full h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             src={`/assets/carousel5.jpg`}
+            width={1000}
+            height={500}
             alt="carousel-5"
           />
         </div>
