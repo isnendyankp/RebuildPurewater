@@ -58,7 +58,7 @@ const Carousel = () => {
             src={`/assets/carousel5.jpg`}
             width={1000}
             height={500}
-            alt="carousel-5"
+            alt="banner 5"
           />
         </div>
       </div>
