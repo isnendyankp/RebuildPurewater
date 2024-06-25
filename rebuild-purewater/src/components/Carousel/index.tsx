@@ -54,9 +54,9 @@ const Carousel = () => {
         {/* Carousel 5 */}
         <div className="carousel-item">
           <Image
+            className="absolute block object-cover w-full h-screen -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             src="https://cdn.tuk.dev/assets/templates/prodify/carousel-5.png"
             alt="carousel-5"
-            className="object-cover w-full h-full"
           />
         </div>
       </div>
