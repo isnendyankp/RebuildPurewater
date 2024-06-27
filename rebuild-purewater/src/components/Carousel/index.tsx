@@ -63,7 +63,7 @@ const Carousel = () => {
         </div>
       </div>
       {/* Carousel indicators */}
-      <div>
+      <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
         <button>0</button>
         <button>1</button>
         <button>2</button>
