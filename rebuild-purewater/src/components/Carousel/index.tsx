@@ -96,7 +96,12 @@ const Carousel = () => {
         >
           3
         </button>
-        <button type="button" className="w-3 h-3 rounded-full">
+        <button
+          type="button"
+          className="w-3 h-3 rounded-full"
+          aria-current="false"
+          aria-label="Slide 5"
+        >
           4
         </button>
       </div>
