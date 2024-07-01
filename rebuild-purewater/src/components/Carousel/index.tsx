@@ -64,6 +64,7 @@ const Carousel = () => {
       </div>
       {/* Carousel indicators */}
       <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+        {/* Carousel indicator 1 */}
         <button
           type="button"
           className="w-3 h-3 rounded-full"
@@ -71,8 +72,8 @@ const Carousel = () => {
           aria-label="Slide 1"
           data-carousel-slide-to="0"
         >
-          0
         </button>
+        {/* Carousel indicator 2 */}
         <button
           type="button"
           className="w-3 h-3 rounded-full"
@@ -80,8 +81,8 @@ const Carousel = () => {
           aria-label="Slide 2"
           data-carousel-slide-to="1"
         >
-          1
         </button>
+        {/* Carousel indicator 3 */}
         <button
           type="button"
           className="w-3 h-3 rounded-full"
@@ -89,8 +90,8 @@ const Carousel = () => {
           aria-label="Slide 3"
           data-carousel-slide-to="2"
         >
-          2
         </button>
+        {/* Carousel indicator 4 */}
         <button
           type="button"
           className="w-3 h-3 rounded-full"
@@ -98,8 +99,8 @@ const Carousel = () => {
           aria-label="Slide 4"
           data-carousel-slide-to="3"
         >
-          3
         </button>
+        {/* Carousel indicator 5 */}
         <button
           type="button"
           className="w-3 h-3 rounded-full"
@@ -107,7 +108,6 @@ const Carousel = () => {
           aria-label="Slide 5"
           data-carousel-slide-to="4"
         >
-          4
         </button>
       </div>
     </div>
