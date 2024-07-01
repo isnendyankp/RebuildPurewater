@@ -69,6 +69,7 @@ const Carousel = () => {
           className="w-3 h-3 rounded-full"
           aria-current="true"
           aria-label="Slide 1"
+          data-carousel-slide-to="0"
         >
           0
         </button>
