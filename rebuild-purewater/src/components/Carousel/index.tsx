@@ -71,8 +71,7 @@ const Carousel = () => {
           aria-current="true"
           aria-label="Slide 1"
           data-carousel-slide-to="0"
-        >
-        </button>
+        ></button>
         {/* Carousel indicator 2 */}
         <button
           type="button"
@@ -80,8 +79,7 @@ const Carousel = () => {
           aria-current="false"
           aria-label="Slide 2"
           data-carousel-slide-to="1"
-        >
-        </button>
+        ></button>
         {/* Carousel indicator 3 */}
         <button
           type="button"
@@ -89,8 +87,7 @@ const Carousel = () => {
           aria-current="false"
           aria-label="Slide 3"
           data-carousel-slide-to="2"
-        >
-        </button>
+        ></button>
         {/* Carousel indicator 4 */}
         <button
           type="button"
@@ -98,8 +95,7 @@ const Carousel = () => {
           aria-current="false"
           aria-label="Slide 4"
           data-carousel-slide-to="3"
-        >
-        </button>
+        ></button>
         {/* Carousel indicator 5 */}
         <button
           type="button"
@@ -107,13 +103,20 @@ const Carousel = () => {
           aria-current="false"
           aria-label="Slide 5"
           data-carousel-slide-to="4"
-        >
-        </button>
+        ></button>
       </div>
       {/* Slider control */}
       {/* data carousel prev */}
-      <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-      </button> 
+      <button
+        type="button"
+        className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-prev
+      >
+        {/* This span is for the icon */}
+        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          
+        </span>
+      </button>
     </div>
   );
 }
