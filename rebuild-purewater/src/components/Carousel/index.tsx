@@ -128,8 +128,8 @@ const Carousel = () => {
               stroke-width="2"
               d="M5 1 1 5l4 4"
             />
-            <span className="sr-only">Previous</span>
           </svg>
+          <span className="sr-only">Previous</span>
         </span>
       </button>
     </div>
