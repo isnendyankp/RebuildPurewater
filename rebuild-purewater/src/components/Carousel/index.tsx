@@ -132,6 +132,10 @@ const Carousel = () => {
           <span className="sr-only">Previous</span>
         </span>
       </button>
+      
+      {/* data carousel next */}
+      <button type="button" className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      </button>
     </div>
   );
 }
