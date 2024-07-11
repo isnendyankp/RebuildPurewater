@@ -1,11 +1,11 @@
 
 import Layout from '@/layout';
-
+import Carousel from '@/components/Carousel';
 
 export default function Home() {
   return (
     <Layout>
-      <h1>Home</h1>
+      <Carousel />
     </Layout>
   );
 }
