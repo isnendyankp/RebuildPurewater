@@ -155,6 +155,7 @@ const Carousel = () => {
               d="m1 9 4-4-4-4"
             />
           </svg>
+          <span className="sr-only">Next</span>
         </span>
       </button>
     </div>
