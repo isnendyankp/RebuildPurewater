@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <Carousel />
+      
     </Layout>
   );
 }
