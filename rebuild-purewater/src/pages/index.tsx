@@ -4,6 +4,7 @@ import Carousel from '@/components/Carousel';
 import AboutUs from '@/components/AboutUs';
 import WhyUs from '@/components/WhyUs';
 import Product from '@/components/Product';
+import Testimonial from '@/components/Testimonial';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutUs />
       <WhyUs />
       <Product />
+      <Testimonial />
     </Layout>
   );
 }
