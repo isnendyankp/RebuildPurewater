@@ -1,4 +1,5 @@
 import React from 'react'
+import { useFormik } from 'formik'
 
 const Login = () => {
     // interface FormProps
@@ -7,6 +8,13 @@ const Login = () => {
         password: string;
     }
 
+    // useFormik hook
+    const formMik = useFormik<FormProps>({
+      initialValues: {
+        email: '',
+        password: '',
+      },
+    });
   return (
     <div>Login</div>
   )
